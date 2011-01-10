@@ -20,7 +20,7 @@
 
 5. Edit `.htaccess` to reflect the correct RewriteBase. This should match the
    baseurl in `/config.inc.php`. If you host it at `http://site.com/`, the `baseurl`
-   and `RewriteBase` should be `/`. If you hsot it at `http://site.com/kohana/`,
+   and `RewriteBase` should be `/`. If you host it at `http://site.com/kohana/`,
    the baseurl and RewriteBase should be /kohana/.
 
 6. Get your Facebook numeric ID. If you go to your Facebook page and it
