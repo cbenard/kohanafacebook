@@ -33,5 +33,5 @@
    so that you can be an admin on the site. Feel free to remove the others
    in there (mine).
 
-8. (Optional) Delete the `kohanafacebook.sql` file in your web root so that
+8. *(Optional)* Delete the `kohanafacebook.sql` file in your web root so that
    potential attackers cannot access it via the website.
