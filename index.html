@@ -53,46 +53,64 @@
     </div>
 
     <h2>Install</h2>
-<p>Instructions for Dallas PHP Users Group
-By: Chris Benard
-http://chrisbenard.net/
+<p>Instructions for Dallas PHP Users Group<br />
+By: Chris Benard<br />
+<a href="http://chrisbenard.net/>http://chrisbenard.net/</a><br />
 
-1) Copy the entire directory structure to your web document root.
-   e.g. application directory should be in /, relative to the document root
+<ol>
+<li>Copy the entire directory structure to your web document root.
+   <br />e.g. application directory should be in /, relative to the document root</li>
 
-2) Create a Facebook application at http://www.facebook.com/developers/
+<li>Create a Facebook application at http://www.facebook.com/developers/</li>
 
-3) Import the included kohanafacebook.sql file into a MySQL database,
+<li>Import the included kohanafacebook.sql file into a MySQL database,
    using PHPMyAdmin's import feature, the import feature of your preferred
-   MySQL IDE, or the mysql command line tool.
+   MySQL IDE, or the mysql command line tool.</li>
 
-4) Edit /config.inc.php and fill in the appropriate values, from your
+<li>Edit /config.inc.php and fill in the appropriate values, from your
    Facebook application's settings page and from your MySQL Database
-   into which you just imported the test settings.
+   into which you just imported the test settings.</li>
 
-5) Edit .htaccess to reflect the correct RewriteBase. This should match the
+<li>Edit .htaccess to reflect the correct RewriteBase. This should match the
    baseurl in /config.inc.php. If you host it at http://site.com/, the baseurl
    and RewriteBase should be /. If you hsot it at http://site.com/kohana/,
-   the baseurl and RewriteBase should be /kohana/.
+   the baseurl and RewriteBase should be /kohana/.</li>
 
-6) Get your Facebook numeric ID. If you go to your Facebook page and it
+<li>Get your Facebook numeric ID. If you go to your Facebook page and it
    looks like http://facebook.com/FriendlyUserName, go to
    http://graph.facebook.com/FriendlyUserName - This will give you your numeric
    ID. If your page looks like http://facebook.com/1234567890, 1234567890 is
-   your numeric Facebook ID.
+   your numeric Facebook ID.</li>
 
-7) Add your Facebook numeric ID into the admins table in the MySQL database
+<li>Add your Facebook numeric ID into the admins table in the MySQL database
    so that you can be an admin on the site. Feel free to remove the others
-   in there (mine).
+   in there (mine).</li>
 
-8) (Optional) Delete the kohanafacebook.sql file in your web root so that
-   potential attackers cannot access it via the website.</p>
+<li>(Optional) Delete the kohanafacebook.sql file in your web root so that
+   potential attackers cannot access it via the website.</li>
+</ol>
+</p>
 <h2>License</h2>
 <p>BSD</p>
 <h2>Authors</h2>
-<p>Chris Benard</p>
+<p><a href="http://chrisbenard.net">Chris Benard</a></p>
 <h2>Contact</h2>
-<p> (chris@chrisbenard.net)<br/>http://chrisbenard.net<br/>      </p>
+<p>
+<script language="Javascript" type="text/javascript">
+<!--
+document.write('<a href="mai');
+document.write('lto');
+document.write(':&#99;&#104;&#114;&#105;&#115;');
+document.write('@');
+document.write('&#99;&#104;&#114;&#105;&#115;&#98;&#101;&#110;&#97;&#114;&#100;&#46;&#110;&#101;&#116;">');
+document.write('&#99;&#104;&#114;&#105;&#115;');
+document.write('@');
+document.write('&#99;&#104;&#114;&#105;&#115;&#98;&#101;&#110;&#97;&#114;&#100;&#46;&#110;&#101;&#116;<\/a>');
+// -->
+</script><noscript>&#99;&#104;&#114;&#105;&#115; at 
+&#99;&#104;&#114;&#105;&#115;&#98;&#101;&#110;&#97;&#114;&#100; dot &#110;&#101;&#116;</noscript>
+<br /><a href="http://chrisbenard.net">http://chrisbenard.net</a>
+<br/>      </p>
 
 
     <h2>Download</h2>
